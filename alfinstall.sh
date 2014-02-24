@@ -5,19 +5,18 @@
 # Copyright 2013 Loftux AB, Peter Löfgren
 # Distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)
 # -------
-
 export ALF_HOME=/opt/alfresco
 export CATALINA_HOME=$ALF_HOME/tomcat
 export ALF_USER=alfresco
 
 
-export BASE_DOWNLOAD=https://raw.github.com/loftuxab/alfresco-ubuntu-install/master
+export BASE_DOWNLOAD=https://raw.github.com/sokie/alfresco-ubuntu-install/master
 export KEYSTOREBASE=http://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD/root/projects/repository/config/alfresco/keystore
 
 #Change this to prefered locale to make sure it exists. This has impact on LibreOffice transformations
-export LOCALESUPPORT=sv_SE.utf8
+export LOCALESUPPORT=it_IT.utf8
 
-export TOMCAT_DOWNLOAD=ftp://ftp.sunet.se/pub/www/servers/apache/dist/tomcat/tomcat-7/v7.0.50/bin/apache-tomcat-7.0.50.tar.gz
+export TOMCAT_DOWNLOAD=http://archive.apache.org/dist/tomcat/tomcat-7/v7.0.50/bin/apache-tomcat-7.0.50.tar.gz
 export XALAN=http://svn.alfresco.com/repos/alfresco-open-mirror/alfresco/HEAD/root/projects/3rd-party/lib/xalan-2.7.0/
 export JDBCPOSTGRESURL=http://jdbc.postgresql.org/download
 export JDBCPOSTGRES=postgresql-9.3-1100.jdbc4.jar
