@@ -7,7 +7,8 @@
 # -------
 
 # Change to public ip-adress on alfresco server
-export IPADRESS=192.168.0.10
+ip_addr=$(ifconfig eth0 | grep 'inet addr:'| grep -v '127.0.0.1' | cut -d: -f2 | awk '{ print $1}')
+export IPADRESS=$ip_addr
 
     # redirect FROM TO PROTOCOL
     # setup port redirect using iptables
